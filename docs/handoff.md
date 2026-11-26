@@ -9,10 +9,11 @@ Rules for agents:
 - "Next step" must be concrete enough that a fresh agent can start without asking.
 -->
 
-**Updated:** 2026-11-25 · **Branch:** main (no commits yet)
+**Updated:** 2026-11-25 · **Branch:** main, tracking origin (meredith-dombek/wildflower-wonder)
 
 ## Just done
 - Recorded the owner's brief (`PRODUCT.md`), chose the cut-paper look, built Step 1 (art kit + Home).
+- First commit pushed to GitHub. The repo is public; Derek has write access as a collaborator.
 - Set up agent-kit (build check, guards, narrowed UI gate) and Impeccable (`DESIGN.md`, sidecar, Home brief).
 
 ## Current state

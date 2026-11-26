@@ -11,7 +11,8 @@ Built one step at a time so each can be seen and approved. The whole brief is in
 - [x] What wildflower-wonder is and who it's for: `CLAUDE.md`, `PRODUCT.md` (2026-11-25)
 - [x] Framework details and scaffold: Next.js 16.4, plain CSS (2026-11-25)
 - [x] agent-kit and Impeccable set up for this brief (2026-11-25)
-- [ ] Derek: first commit; create the GitHub repo if wanted (private, before any paid PDF is added)
+- [x] First commit, pushed to github.com/meredith-dombek/wildflower-wonder (2026-11-25)
+- [ ] Meredith: make the repo private before any paid PDF is added (it is public now)
 
 ### Step 1: Look and Home
 - [x] Cut-paper illustration kit, brand lettering, theme, header and footer (2026-11-25)

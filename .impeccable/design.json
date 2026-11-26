@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-25T00:00:00Z",
+  "title": "Design System: Wildflower & Wonder",
+  "extensions": {
+    "colorMeta": {
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream",
+        "canonical": "#fbf3e2",
+        "tonalRamp": [
+          "#3c2e10",
+          "#6e5318",
+          "#a4791d",
+          "#dca01f",
+          "#e1b454",
+          "#e6c88a",
+          "#eedebc",
+          "#f9f5eb"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#fffbf1",
+        "tonalRamp": [
+          "#443309",
+          "#7c5c0b",
+          "#b98708",
+          "#fbb301",
+          "#f8c33e",
+          "#f5d27b",
+          "#f6e3b5",
+          "#fbf6e9"
+        ]
+      },
+      "sage-pale": {
+        "role": "tertiary",
+        "displayName": "Sage Pale",
+        "canonical": "#dbe4c9",
+        "tonalRamp": [
+          "#2a301c",
+          "#4a5630",
+          "#6a7e43",
+          "#8ca754",
+          "#a5ba7c",
+          "#bfcca4",
+          "#d9e0ca",
+          "#f3f5ef"
+        ]
+      },
+      "sage": {
+        "role": "tertiary",
+        "displayName": "Sage",
+        "canonical": "#a2b38c",
+        "tonalRamp": [
+          "#272c20",
+          "#454f38",
+          "#63734e",
+          "#819764",
+          "#9dae88",
+          "#bac4ac",
+          "#d6dcce",
+          "#f2f4f0"
+        ]
+      },
+      "moss": {
+        "role": "primary",
+        "displayName": "Moss",
+        "canonical": "#3f573b",
+        "tonalRamp": [
+          "#222c21",
+          "#3c4e38",
+          "#547250",
+          "#6d9666",
+          "#8ead89",
+          "#b0c4ac",
+          "#d1dbcf",
+          "#f1f4f1"
+        ]
+      },
+      "moss-deep": {
+        "role": "tertiary",
+        "displayName": "Moss Deep",
+        "canonical": "#2f4530",
+        "tonalRamp": [
+          "#212c21",
+          "#394e3a",
+          "#507151",
+          "#669568",
+          "#89ac8b",
+          "#acc3ae",
+          "#cfdbd0",
+          "#f1f4f1"
+        ]
+      },
+      "rose-pale": {
+        "role": "tertiary",
+        "displayName": "Rose Pale",
+        "canonical": "#f0d5cb",
+        "tonalRamp": [
+          "#361f16",
+          "#633524",
+          "#924a30",
+          "#c35e39",
+          "#ce8367",
+          "#d9a997",
+          "#e7cdc3",
+          "#f7f0ed"
+        ]
+      },
+      "rose": {
+        "role": "tertiary",
+        "displayName": "Rose",
+        "canonical": "#c27e79",
+        "tonalRamp": [
+          "#311d1b",
+          "#59312e",
+          "#82443f",
+          "#ad554f",
+          "#be7d78",
+          "#cfa4a1",
+          "#e1cbc9",
+          "#f6efef"
+        ]
+      },
+      "rose-deep": {
+        "role": "secondary",
+        "displayName": "Rose Deep",
+        "canonical": "#94504f",
+        "tonalRamp": [
+          "#2f1e1d",
+          "#553332",
+          "#7c4646",
+          "#a45958",
+          "#b77f7f",
+          "#caa6a6",
+          "#dfcccb",
+          "#f5f0f0"
+        ]
+      },
+      "tan-pale": {
+        "role": "tertiary",
+        "displayName": "Tan Pale",
+        "canonical": "#ecd9b6",
+        "tonalRamp": [
+          "#372b15",
+          "#654d22",
+          "#95702c",
+          "#c79334",
+          "#d1ab64",
+          "#dcc294",
+          "#e8dbc2",
+          "#f7f4ed"
+        ]
+      },
+      "tan": {
+        "role": "tertiary",
+        "displayName": "Tan",
+        "canonical": "#d5b585",
+        "tonalRamp": [
+          "#352918",
+          "#5f4928",
+          "#8c6935",
+          "#bb8a41",
+          "#c8a46d",
+          "#d6be9a",
+          "#e5d8c5",
+          "#f7f3ee"
+        ]
+      },
+      "brown": {
+        "role": "neutral",
+        "displayName": "Brown",
+        "canonical": "#6b4b37",
+        "tonalRamp": [
+          "#30241d",
+          "#563f31",
+          "#7d5a44",
+          "#a67456",
+          "#b9947d",
+          "#cbb3a5",
+          "#e0d3cb",
+          "#f5f2ef"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#3b2a1f",
+        "tonalRamp": [
+          "#2f241d",
+          "#554032",
+          "#7c5b45",
+          "#a57557",
+          "#b8957e",
+          "#cbb4a5",
+          "#dfd3cb",
+          "#f5f2ef"
+        ]
+      },
+      "soil": {
+        "role": "neutral",
+        "displayName": "Soil",
+        "canonical": "#3f2c21",
+        "tonalRamp": [
+          "#2f241d",
+          "#553f32",
+          "#7c5945",
+          "#a57357",
+          "#b8937e",
+          "#cbb3a5",
+          "#dfd2cb",
+          "#f5f2ef"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The feeling line and other single big statements."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All reading text, 18px or more."
+      }
+    },
+    "shadows": [
+      {
+        "name": "tab",
+        "value": "0 3px 7px rgb(63 44 33 / .3)",
+        "purpose": "A cut tab at rest."
+      },
+      {
+        "name": "tab-lift",
+        "value": "0 9px 16px rgb(63 44 33 / .28)",
+        "purpose": "A lifted tab."
+      },
+      {
+        "name": "sheet",
+        "value": "0 2px 4px rgb(63 44 33 / .25), 0 18px 34px rgb(63 44 33 / .28)",
+        "purpose": "A product cover."
+      }
+    ],
+    "motion": [
+      {
+        "name": "settle",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Lift, turn, settle."
+      },
+      {
+        "name": "glue",
+        "value": "820ms cubic-bezier(.22, 1, .36, 1)",
+        "purpose": "A found piece flying to its outline."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "menu and tall scenes",
+        "value": "759px"
+      },
+      {
+        "name": "one column",
+        "value": "899px"
+      },
+      {
+        "name": "perched butterfly",
+        "value": "1200px to 1640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Cut tab",
+      "kind": "button",
+      "refersTo": "tab",
+      "description": "The primary action.",
+      "html": "<a class=\"ds-tab\" href=\"#\">Explore the shop</a>",
+      "css": ".ds-tab{display:inline-flex;align-items:center;min-height:3.4rem;padding:.7rem 1.7rem .8rem;border-radius:17px 22px 15px 24px;background:#94504f;color:#fffbf1;font:700 1.16rem/1.2 Andika,sans-serif;text-decoration:none;box-shadow:0 3px 7px rgb(63 44 33 / .3);transition:transform .35s cubic-bezier(.16,1,.3,1)}.ds-tab:hover{transform:translateY(-3px) rotate(-1.2deg)}.ds-tab:focus-visible{outline:3px solid #94504f;outline-offset:4px}"
+    },
+    {
+      "name": "Pencil tab",
+      "kind": "chip",
+      "refersTo": "tab-pencil",
+      "description": "Status for what can't be bought yet. Not a button.",
+      "html": "<span class=\"ds-pencil\">Coming soon</span>",
+      "css": ".ds-pencil{display:inline-flex;align-items:center;min-height:3.2rem;padding:.6rem 1.5rem .7rem;border:2px dashed #6b4b37;border-radius:17px 22px 15px 24px;color:#6b4b37;font:700 1.125rem Andika,sans-serif}"
+    },
+    {
+      "name": "Menu link",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Header link.",
+      "html": "<a class=\"ds-nav\" href=\"#\">Shop shelves</a>",
+      "css": ".ds-nav{display:inline-flex;align-items:center;min-height:44px;padding:.3rem 1rem;border-radius:13px 17px 12px 18px;color:#3b2a1f;font:400 1.125rem Andika,sans-serif;text-decoration:none}.ds-nav:hover{background:#ecd9b6;transform:rotate(-1.2deg)}.ds-nav:focus-visible{outline:3px solid #94504f;outline-offset:4px}"
+    },
+    {
+      "name": "Scrap",
+      "kind": "custom",
+      "refersTo": "scrap",
+      "description": "An uneven round of paper holding one piece.",
+      "html": "<span class=\"ds-scrap\">1</span>",
+      "css": ".ds-scrap{display:inline-grid;place-items:center;width:3.4rem;height:3.4rem;border-radius:46% 54% 50% 50% / 52% 48% 54% 46%;background:#fffbf1;color:#3f573b;font:700 1.1rem Andika,sans-serif;box-shadow:0 3px 8px rgb(63 44 33 / .36)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Cut-Paper Meadow",
+    "overview": "The site is one landscape made of hand-painted paper, cut with scissors and layered, seen from a child's height.\nScrolling goes down through it: cream morning sky, moss hill, pale sage, rose field, tan path, forest floor, soil.",
+    "keyCharacteristics": [
+      "Full-width sheets of color meet along scissor-cut edges.",
+      "Flowers and animals are large, textured and few; text areas stay calm.",
+      "What is real is painted. What isn't released is a pencil outline.",
+      "Light comes from the upper left; everything grows up from the ground."
+    ],
+    "rules": [
+      {
+        "name": "The Whole Sheet Rule",
+        "body": "Color covers a whole band. Never scatter it as small accents on cream.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Rule",
+        "body": "Text is ink, moss, brown or rose-deep on light sheets and cream on moss or soil. Sage, rose and tan are sheets, never text.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** draw new art in `art/` with the same paper pieces and render it.",
+      "**Do** give every page a band sequence that ends in the forest floor.",
+      "**Do** keep touch targets at least 44px."
+    ],
+    "donts": [
+      "**Don't** paint something that isn't real yet.",
+      "**Don't** use stock photos, clip art, emoji or icon fonts beside the paper art.",
+      "**Don't** build rows of identical rounded cards.",
+      "**Don't** put full-strength grain or a busy scene behind text."
+    ]
+  }
+}

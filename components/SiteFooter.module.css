@@ -1,0 +1,9 @@
+.footer { position: relative; background: var(--sage) url("/art/grain.webp"); }
+.scene { overflow: hidden; }
+.img { width: 100%; height: auto; }
+.soil { --band: var(--soil); color: var(--tan-pale); padding-block: 2rem 3rem; }
+.row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem 4rem; }
+.name { font-family: var(--font-display), Georgia, serif; font-size: 1.9rem; line-height: 1.2; color: var(--cream); }
+.place { margin-top: .6rem; }
+.row a { display: inline-flex; align-items: center; min-height: 44px; color: var(--cream); }
+.row :focus-visible { outline-color: var(--tan); }

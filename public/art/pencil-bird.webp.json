@@ -1,0 +1,4 @@
+{
+  "prompt": "Original Wildflower & Wonder artwork. Drawn as SVG paths in art/paper.mjs, art/sprites.mjs, art/scenes.mjs and art/mockups.mjs and rendered to this file with art/render.mjs or art/mockups.mjs (headless Chrome + sharp). No stock images, photographs or image-generation model used.\n",
+  "createdAt": "2026-11-25T15:40:28.306Z"
+}

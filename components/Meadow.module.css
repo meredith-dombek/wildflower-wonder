@@ -1,0 +1,54 @@
+.sky { position: relative; z-index: 0; display: flex; flex-direction: column; min-height: clamp(38rem, calc(100svh - 11rem), 34rem + 24vw); overflow: hidden; }
+.back, .front { position: absolute; inset: auto 0 0; }
+.front { pointer-events: none; z-index: 2; }
+.scene { width: 100%; height: auto; position: relative; }
+.cover { position: relative; z-index: 1; padding-top: clamp(5.6rem, 4.6rem + 2.6vw, 7.4rem); }
+
+.title { width: min(64%, 60rem); margin-left: 15%; }
+.title img { width: 100%; height: auto; }
+.words { margin: clamp(1.1rem, 1.8vw, 1.8rem) 0 0 31%; max-width: 34rem; display: grid; gap: .8rem; justify-items: start; }
+.slogan { font-family: var(--font-display), Georgia, serif; font-size: clamp(1.35rem, 1.1rem + 1vw, 1.9rem); line-height: 1.2; color: var(--rose-deep); }
+.words :global(.tab) { margin-top: .5rem; }
+
+.creature { position: absolute; padding: 0; border: 0; background: none; pointer-events: auto; cursor: pointer; transition: transform .4s cubic-bezier(.16, 1, .3, 1), opacity .3s; }
+.creature img { width: 100%; height: auto; }
+.creature::after { content: ""; position: absolute; inset: 50% auto auto 50%; width: max(100%, 48px); height: max(100%, 48px); transform: translate(-50%, -50%); }
+.creature:hover { transform: translateY(-4px) rotate(-4deg); }
+.creature[data-found="true"] { opacity: 0; pointer-events: none; }
+.bee { left: 24.5%; top: 43%; width: 5%; animation: hover 5s ease-in-out infinite alternate; }
+.butterfly { left: 71%; top: 46%; width: 6.4%; }
+.rabbit { left: 61%; bottom: 3%; width: 7.4%; }
+.mushroom { left: 37.4%; bottom: 4%; width: 4.8%; }
+.acorn { left: 48.6%; bottom: 3.6%; width: 2.6%; transform: rotate(12deg); }
+@media (min-width: 1200px) and (max-width: 1640px) { .butterfly { left: 66.4%; top: 2%; rotate: 14deg; } }
+@keyframes hover { to { translate: 10px -9px; } }
+.flying { position: fixed; z-index: 50; pointer-events: none; max-width: none; }
+
+.hill { --band: var(--moss); color: var(--cream); padding-block: 1.2rem clamp(5rem, 3.4rem + 7vw, 9.5rem); }
+.hill a { color: var(--cream); }
+.hill :focus-visible { outline-color: var(--cream); }
+.hunt { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.2rem 3rem; }
+.huntTitle { color: var(--cream); font-size: clamp(1.35rem, 1.1rem + 1vw, 1.9rem); margin-bottom: .35rem; }
+.slots { display: flex; gap: clamp(.5rem, 1.3vw, 1.1rem); }
+.slot { display: grid; justify-items: center; gap: .3rem; font-size: 1rem; line-height: 1.2; }
+.scrap { position: relative; display: grid; place-items: center; width: clamp(3.4rem, 7vw, 5.6rem); aspect-ratio: 1; border-radius: 46% 54% 50% 50% / 52% 48% 54% 46%; background: var(--paper) url("/art/grain.webp"); box-shadow: 0 3px 8px rgb(63 44 33 / .36); }
+.slot:nth-child(even) .scrap { border-radius: 52% 48% 46% 54% / 47% 53% 48% 52%; rotate: 2deg; }
+.scrap img { grid-area: 1 / 1; max-width: 70%; max-height: 70%; width: auto; height: auto; }
+.painted { opacity: 0; }
+.slot[data-found="true"] .painted { opacity: 1; transition: opacity .12s .62s; }
+.slot[data-found="true"] .pencil { opacity: 0; transition: opacity .12s .62s; }
+
+@media (max-width: 759px) {
+  .sky { min-height: clamp(44.2rem, calc(100svh - 8.5rem), 50rem); }
+  .cover { padding-top: 6rem; }
+  .title { width: 100%; margin-left: 0; }
+  .words { margin-left: 0; }
+  .bee { left: 64%; top: 30%; width: 12%; }
+  .butterfly { left: 33%; top: 46%; width: 14%; }
+  .rabbit { left: 51%; bottom: 4%; width: 17%; }
+  .mushroom { left: 34%; bottom: 3%; width: 10%; }
+  .acorn { left: 25.5%; bottom: 3%; width: 6%; }
+  .hunt { display: block; }
+  .slots { justify-content: space-between; margin-top: 1rem; gap: .35rem; }
+  .slot { font-size: 1rem; }
+}

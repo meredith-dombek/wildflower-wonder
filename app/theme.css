@@ -1,0 +1,21 @@
+/* ─────────────────────────────────────────────────────────────
+   YOUR COLORS
+   Change a color here and it changes everywhere on the site.
+   (The painted pictures are images, so they keep their own colors.)
+   ───────────────────────────────────────────────────────────── */
+:root {
+  --cream: #fbf3e2;
+  --paper: #fffbf1;
+  --sage-pale: #dbe4c9;
+  --sage: #a2b38c;
+  --moss: #3f573b;
+  --moss-deep: #2f4530;
+  --rose-pale: #f0d5cb;
+  --rose: #c27e79;
+  --rose-deep: #94504f;
+  --tan-pale: #ecd9b6;
+  --tan: #d5b585;
+  --brown: #6b4b37;
+  --ink: #3b2a1f;
+  --soil: #3f2c21;
+}
